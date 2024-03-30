@@ -1,0 +1,36 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.chat-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  max-width: 350px;
+  height: 500px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.user-input {
+  border: none;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.user-input:focus {
+  outline: none;
+}
